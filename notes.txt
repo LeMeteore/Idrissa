@@ -54,6 +54,16 @@ Maintenant que les deux dépôts sont synchronisés, je peux pousser mes branche
 - je répète le processus pour chaque branche si nécessaire
 
 
+Si je veux, je peux renommer mes branches
+-----------------------------------------
+
+- je me positionne d'abord sur la branche que je veux renommer
+  - git switch
+
+- je renomme la branche
+  - git branch -m <nouveau-nom-branche>
+
+
 Bonne pratique ?
 ----------------
 - Chaque membre de l'équipe, à la reception du dépôt, crée sa propre branche
