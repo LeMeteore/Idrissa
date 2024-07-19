@@ -31,6 +31,29 @@ Comment je liste les branches que j'ai ?
 - git branch
 
 
+Supposons j'ai un dépôt en local qui n'existe pas encore sur Github
+--------------------------------------------------------------------
+
+- Créer un dépôt vide sur Github
+- Récupérer l'url permettant de clôner
+- Revenir dans le dépôt en local
+- Configurer le dépôt local pour le synchroniser avec le remote (4)
+  - git remote add <nom-dépôt(origin)> <url-dépôt-distant(4)>
+- À cet instant, les dépôts ne sont pas encore synchronisés mais ils sont prêts à le faire
+- Demander au dépôt local de se synchroniser avec le dépôt distant
+  - git fetch
+
+
+Maintenant que les deux dépôts sont synchronisés, je peux pousser mes branches
+- je me positionne sur la branche
+  - git switch <nom-de-la-branche>
+
+- je pousse la branche
+  - git push origin <nom-de-la-branche>
+
+- je répète le processus pour chaque branche si nécessaire
+
+
 Bonne pratique ?
 ----------------
 - Chaque membre de l'équipe, à la reception du dépôt, crée sa propre branche
