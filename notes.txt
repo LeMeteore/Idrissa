@@ -8,3 +8,30 @@ Notes prises, atelier prise en main branches Git:
 
 C'est quoi une branche ?
 ------------------------
+
+- Une branche c'est le moyen pour moi de travailler sur le même projet
+  - sans avoir à manuellement faire des duplication de dossiers / fichiers
+
+
+Comment je crée une nouvelle branche ?
+--------------------------------------
+
+- git switch -c nom-de-la-nouvelle-branche
+
+
+Comment je bascule d'une branche à une autre ?
+-----------------------------------------------
+
+- git switch nom-de-la-branche
+
+
+Comment je liste les branches que j'ai ?
+----------------------------------------
+
+- git branch
+
+
+Bonne pratique ?
+----------------
+- Chaque membre de l'équipe, à la reception du dépôt, crée sa propre branche
+- Puis, chaque membre de l'équipe travaille sur sa propre branche
