@@ -1,0 +1,4 @@
+
+
+- Tous dépot Git, par défaut, il y a une branche principale
+  - elle peut nommée "main", parfois "master"
